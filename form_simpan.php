@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>Data Guru</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>  <h1>Tambah Data Guru</h1>
+  <form method="post" action="proses_simpan.php">
+    <table cellpadding="8">
+      <tr>
+        <td>id</td>
+        <td><input type="text" name="nis"></td>
+      </tr>
+      <tr>
+        <td>Nama</td>
+        <td><input type="text" name="nama"></td>
+      </tr>
+      <tr>
+        <td>Jenis Kelamin</td>
+        <td>
+        <input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki
+        <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan
+        </td>
+</tr>
+        <td>Alamat</td>
+        <td><textarea name="alamat"></textarea></td>
+      </tr>
+    </table>
+
+    <hr>
+    <input type="submit" value="Simpan">
+    <a href="index.php"><input type="button" value="Batal"></a>
+  </form></center>
+</body>
+</html>
